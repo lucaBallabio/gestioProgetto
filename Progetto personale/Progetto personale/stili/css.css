@@ -103,22 +103,9 @@ div h2.ml {
 	border: solid 1px blue;
 	height: auto;
 	background-color: #e0ffff;
-	text-align: center;
 }
 
 .column.middle_cibo {
-    width: 60%;
-	border: solid 1px blue;
-	height: auto;
-	background-color: #e0ffff;
-	margin-top: 20px;
-	margin-left: 50px;
-	margin-bottom: 20px;
-	margin-right: 20px;
-	border-radius: 15px;
-}
-
-.column.middle_bevande {
     width: 60%;
 	border: solid 1px blue;
 	height: auto;
@@ -209,8 +196,4 @@ div.desc1 {
 	margin-top: 20px;
 	font-size: 35px;
 	font-style: unset;
-}
-
-.bottone{
-	
 }
