@@ -1,10 +1,19 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 
 <head>
     <title>BAR ROSSO</title>
     <link rel="stylesheet" type="text/css" href="stili/css.css">
+    <script src="js.js"></script>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
+
 <body>
     <h1 class="titolo">BAR ROSSO</h1>
     <div class="menu">
@@ -14,7 +23,7 @@
             <li><a href="cibo.html">Cibo</a></li>
             <li><a href="Bevande.html">Bevande</a></li>
             <li><a href="Carrello.html">
-                    <div style="margin-top: -30px; margin-left: 400px;"><button>
+                    <div style="margin-top: -30px; margin-left: 300px;"><button>
                             <img src="immagini/carrello.png" alt="carrello" style="width: 70px; height: 70px;"></button>
                     </div>
                 </a></li>
@@ -24,14 +33,35 @@
     <div style="margin-left: 500px">
         <div class="column middle">
             <h2>Ordine</h2>
-            <table id="tabella">
-
-            </table>
+            <div style="text-align: center;">
+                <table style="margin-top:20px; margin-bottom:20px;" id="tabella">
+                    
+                </table>
+            </div>
             <div style="scroll-margin-bottom: 30px;">
                 <p>Classe : </p>
                 <input style="border-radius: 15px; height: 25px; width: 200px; text-align: center;">
                 <p>Orario di consegna : </p>
-                <input style="border-radius: 15px; height: 25px; width: 200px; text-align: center;">
+                <div>
+                    <select id="Orario" class="comboBox">
+                        <option>9:00</option>
+                        <option>9:30</option>
+                        <option>10:00</option>
+                        <option>10:30</option>
+                        <option>11:00</option>
+                        <option>11:30</option>
+                        <option>12:00</option>
+                        <option>12:30</option>
+                        <option>13:00</option>
+                        <option>13:30</option>
+                        <option>14:00</option>
+                        <option>14:30</option>
+                        <option>15:00</option>
+                        <option>15:30</option>
+                        <option>16:00</option>
+                        <option>16:30</option>
+                    </select>
+                </div>
             </div>
 
         </div>
